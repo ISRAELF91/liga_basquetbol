@@ -21,6 +21,9 @@
                     <x-nav-link :href="route('jugadores.index')" :active="request()->routeIs('jugadores.*')">
                         {{ __('Jugadores') }}
                     </x-nav-link>
+                    <x-nav-link :href="route('partidos.index')" :active="request()->routeIs('partidos.*')">
+                        {{ __('Partidos') }}
+                    </x-nav-link>
                 </div>
             </div>
 
